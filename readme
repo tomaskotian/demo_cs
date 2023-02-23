@@ -4,10 +4,10 @@ cd demo_cs
 git remote -v
 
 --push changes--
-git pull origin master
+git pull origin main
 git checkout -b new_feature
 git add .
 git commit -m "describe changes"
-git push origin master
-git checkout master
-git pull origin master
+git push origin main
+git checkout main
+git pull origin main
