@@ -1,5 +1,5 @@
 --clone repository from github--
-git clone https://github.com/tomaskotian/test_cs.git
+git clone https://github.com/tomaskotian/demo_cs.git
 git remote -v
 
 --push changes--
