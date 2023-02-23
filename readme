@@ -1,5 +1,6 @@
 --clone repository from github--
 git clone https://github.com/tomaskotian/demo_cs.git
+cd demo_cs
 git remote -v
 
 --push changes--
