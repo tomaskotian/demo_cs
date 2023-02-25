@@ -28,6 +28,8 @@ struct Position
 	int x
 	int y
 
+
+
 struct Line
 		int lineWidth
 		Color lineColor
