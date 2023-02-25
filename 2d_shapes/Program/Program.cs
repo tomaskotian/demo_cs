@@ -15,6 +15,7 @@ class Program
         Console.WriteLine(ob2.getPosition());
 
         const int x = 5;
+        const int ygit  = 5;
     }
     //main dopisanie kodu....
 }
