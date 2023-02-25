@@ -24,4 +24,4 @@ class Shape
     {
         return $"x = {Position.X} y = {Position.Y}";  
     }
-}
+}   //skuska shapes

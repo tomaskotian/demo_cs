@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tomas\\.nuget\\packages\\": {}
+    "C:\\Users\\ludsc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\demo_cs\\demo_cs\\2d_shapes\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\demo_cs\\2d_shapes\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\demo_cs\\demo_cs\\2d_shapes\\Program\\Program.csproj",
-      "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-      "outputPath": "C:\\demo_cs\\demo_cs\\2d_shapes\\Program\\obj\\",
+      "projectPath": "C:\\demo_cs\\2d_shapes\\Program\\Program.csproj",
+      "packagesPath": "C:\\Users\\ludsc\\.nuget\\packages\\",
+      "outputPath": "C:\\demo_cs\\2d_shapes\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ludsc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

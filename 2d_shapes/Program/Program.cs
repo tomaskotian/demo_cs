@@ -16,4 +16,5 @@ class Program
 
         const int x = 5;
     }
+    //main dopisanie kodu....
 }
