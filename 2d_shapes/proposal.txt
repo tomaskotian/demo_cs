@@ -10,22 +10,30 @@ class Shape
 class Circle	
 	int radius
 	int area
+
 class Square
 	int side
 	int area
+
 class Rectangel
 	int sideA
 	int sideB
 	int area
+
 class Triangle
 	int side 
 	int area
+
+struct Position
+	int x
+	int y
 
 struct Line
 		int lineWidth
 		Color lineColor
 
 enum Color Red, Green, Blue
+
 -----------------------------------------------------------------------------
 toto dalej nebudeme robit...
 -----------------------------------------------------------------------------
