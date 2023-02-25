@@ -1,0 +1,47 @@
+------------2d shapes--------------------------------------------------------
+--program emulate 2d shapes CAD
+-----------------------------------------------------------------------------
+class Shape
+	int id
+	Position Position x,y //midlle
+	Color Color
+	Line Line
+
+class Circle	
+	int radius
+	int area
+class Square
+	int side
+	int area
+class Rectangel
+	int sideA
+	int sideB
+	int area
+class Triangle
+	int side 
+	int area
+
+struct Line
+		int lineWidth
+		Color lineColor
+
+enum Color Red, Green, Blue
+-----------------------------------------------------------------------------
+toto dalej nebudeme robit...
+-----------------------------------------------------------------------------
+API - return messages in JSON
+getAllShapes - return all shapes and all data of individaul shape in array 
+getLastShape - return last shape
+getFirstShape -retrun first shape
+getAllId - return all ids
+getLastId - return last Id
+getFirstId -return first Id
+getAllColors - return all colors
+
+getColorOptions - return all colors
+getShapeOptions - return all shapes
+-----------------------------------------------------------------------------
+
+
+
+
