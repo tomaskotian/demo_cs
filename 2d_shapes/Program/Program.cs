@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+//<<<<<<< HEAD
         Circle obj1 = new Circle(5, new(2, 3), Color.Red, Line.Default()) ;
         Console.WriteLine(obj1.Radius);
         Console.WriteLine(obj1.Area);
@@ -21,7 +22,21 @@ class Program
         Console.WriteLine("Plocha: {0}\nFarba: {1}", obj3.Area, obj3.Color);
         Console.WriteLine("Suradnice: {0}", obj3.getPosition());
         Console.WriteLine(obj3.getLine());
-        
+//=======
+        Memory CreatedShapes = new Memory(); 
+
+        if (Console.ReadKey(true).Key == ConsoleKey.A)
+        {
+            CreatedShapes.addShape(new Circle(5, new (2,3), Color.Red, new (1)));
+            CreatedShapes.addShape(new Rectangle(3,4, new(2, 3), Color.Red, new(1)));
+            CreatedShapes.addShape(new Circle(5, new(2, 3),Color.Red, new(1)));
+        }
+
+        CreatedShapes.printShapes();
+        CreatedShapes.removeShape(1);
+        Console.WriteLine("//////////////////");
+        CreatedShapes.printShapes();
+       
 
     }
     //main dopisanie kodu....

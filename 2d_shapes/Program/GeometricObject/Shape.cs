@@ -2,7 +2,7 @@
 
 class Shape
 {
-    public int Id { get; }
+    public int Id { get; set; }
     public Position Position { get; }
 
     private static int _instanceCounter = 0;
@@ -11,13 +11,13 @@ class Shape
 
     public Shape()
     {
-        Id = ++_instanceCounter;
+        Id = _instanceCounter++;
 
     }
 
     public Shape(Position position, Color color, Line line)
     {
-        Id = ++_instanceCounter;
+        Id = _instanceCounter++;
 
         Position = position;
         Color = color;
