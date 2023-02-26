@@ -7,11 +7,11 @@ class Rectangle : Shape
 
     public int Area { get; }
 
-    public Rectangle(int sideA, int sideB, Position position, Color color, Line line) : base(position, color, line)
+    public Rectangle(int sideA, int sideB, Position position, Line line) : base(position, line)
     {
         SideA = sideA;
         SideB = sideB;
         Area = sideA * sideB;
-        Console.WriteLine("\n*Rectangle*:");
+        //Console.WriteLine("\n*Rectangle*:");
     }
 }

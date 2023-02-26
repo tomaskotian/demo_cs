@@ -1,5 +1,4 @@
-﻿
-namespace Application;
+﻿namespace Application;
 class Memory : IGui
 {
     public Shape[] arrShapes { get; }

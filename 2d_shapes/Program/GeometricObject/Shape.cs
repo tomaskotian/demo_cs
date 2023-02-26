@@ -6,7 +6,6 @@ class Shape
     public Position Position { get; }
 
     private static int _instanceCounter = 0;
-    public Color Color { get; }
     public Line Line { get; }
 
     public Shape()
@@ -15,12 +14,11 @@ class Shape
 
     }
 
-    public Shape(Position position, Color color, Line line)
+    public Shape(Position position, Line line)
     {
         Id = _instanceCounter++;
 
         Position = position;
-        Color = color;
         Line = line;
     }
 
@@ -31,6 +29,6 @@ class Shape
 
     public string getLine()
     {
-        return $"Hrubka ciary = {Line.LineWidth}\nFarba ciary: ";
+        return $"Hrubka ciary = {Line.LineWidth}\nFarba ciary: {Line.color}\n";
     }
 }   //skuska shapes

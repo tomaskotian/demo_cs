@@ -6,7 +6,7 @@ class Circle : Shape
     public int Radius { get; }
     public double Area { get; }
 
-    public Circle(int radius, Position position, Color color, Line line) : base(position, color, line)
+    public Circle(int radius, Position position, Line line) : base(position, line)
     {
         Radius = radius;
         Area = Math.Round(radius * pi,2);
