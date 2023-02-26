@@ -3,32 +3,30 @@
 -----------------------------------------------------------------------------
 class Shape
 	int id
-	Position Position x,y //midlle
+	Position Position 
 	Color Color
 	Line Line
 
 class Circle	
 	int radius
-	int area
+	double area
 
 class Square
 	int side
-	int area
+	double area
 
 class Rectangel
 	int sideA
 	int sideB
-	int area
+	double area
 
 class Triangle
 	int side 
-	int area
+	double area
 
 struct Position
 	int x
 	int y
-
-
 
 struct Line
 		int lineWidth

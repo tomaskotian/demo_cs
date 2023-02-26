@@ -4,18 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Position position_ob1 = new Position(5, 3);
-        Shape ob1 = new Shape(position_ob1);
-        Console.WriteLine(ob1.Id);
-        Console.WriteLine(ob1.Id);
-        Console.WriteLine(ob1.getPosition());
+        Circle obj1 = new Circle(5, new (2, 3));
+        Console.WriteLine(obj1.Radius);
+        Console.WriteLine(obj1.Area);
+        Console.WriteLine(obj1.getPosition());
 
-        Shape ob2 = new Shape();
-        Console.WriteLine(ob2.Id);
-        Console.WriteLine(ob2.getPosition());
+        Rectangle obj2 = new Rectangle(3, 5, Position.Default());
+        Console.WriteLine(obj2.SideA);
+        Console.WriteLine(obj2.SideB);
+        Console.WriteLine(obj2.AreaRec);
+        Console.WriteLine(obj2.getPosition());
+        
 
-        const int x = 5;
-        const int ygit  = 5;
     }
     //main dopisanie kodu....
 }
