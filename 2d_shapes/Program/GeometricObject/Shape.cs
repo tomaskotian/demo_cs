@@ -29,8 +29,8 @@ class Shape
         return $"x = {Position.X} y = {Position.Y}";  
     }
 
-    public string getLineWidth()
+    public string getLine()
     {
-        return $"Hrubka ciary = {Line.LineWidth}";
+        return $"Hrubka ciary = {Line.LineWidth}\nFarba ciary: ";
     }
 }   //skuska shapes
