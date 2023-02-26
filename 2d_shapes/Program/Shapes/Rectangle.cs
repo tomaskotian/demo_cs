@@ -5,13 +5,13 @@ class Rectangle : Shape
     public int SideA { get; }
     public int SideB { get; }
 
-    public int AreaRec { get; }
+    public int Area { get; }
 
-    public Rectangle(int sideA, int sideB, Position position) : base(position)
+    public Rectangle(int sideA, int sideB, Position position, Color color) : base(position, color)
     {
         SideA = sideA;
         SideB = sideB;
-        AreaRec = sideA * sideB;
+        Area = sideA * sideB;
         Console.WriteLine("\n*Rectangle*:");
     }
 }

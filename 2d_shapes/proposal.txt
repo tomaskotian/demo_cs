@@ -8,31 +8,32 @@ class Shape
 	Line Line
 
 class Circle	
-	int radius
-	double area
+	int Radius
+	double Area
 
 class Square
 	int side
 	double area
 
-class Rectangel
-	int sideA
-	int sideB
-	double area
+class Rectangle
+	int SideA
+	int SideB
+	int Area
 
 class Triangle
-	int side 
-	double area
+	int BaseT
+	int Height
+	double Area
 
 struct Position
-	int x
-	int y
+	int X
+	int Y 
 
 struct Line
-		int lineWidth
-		Color lineColor
+	int lineWidth
+	Color lineColor
 
-enum Color Red, Green, Blue
+enum Color Red, Green, Blue, Yellow
 
 -----------------------------------------------------------------------------
 toto dalej nebudeme robit...
