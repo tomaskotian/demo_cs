@@ -7,7 +7,7 @@ class Rectangle : Shape
 
     public int Area { get; }
 
-    public Rectangle(int sideA, int sideB, Position position, Color color) : base(position, color)
+    public Rectangle(int sideA, int sideB, Position position, Color color, Line line) : base(position, color, line)
     {
         SideA = sideA;
         SideB = sideB;

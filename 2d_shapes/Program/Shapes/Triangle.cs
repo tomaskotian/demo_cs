@@ -6,7 +6,7 @@ class Triangle : Shape
     public int Height { get; }
     public double Area { get; }
 
-    public Triangle (int baseT, int height, Position position, Color color) : base(position, color)
+    public Triangle (int baseT, int height, Position position, Color color, Line line) : base(position, color, line)
     {
         BaseT = baseT;
         Height = height;
