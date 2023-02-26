@@ -1,5 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
+﻿
 namespace Application;
 class Memory : IGui
 {
@@ -23,12 +22,12 @@ class Memory : IGui
             if (id >= indx)
             {
                 arrShapes[indx] = arrShapes[indx + 1];
-                arrShapes[indx].Id = indx;
             }
         }
         arrShapes[LastIndex-1] = null;
 
     }
+
     
     public void printShapes()
     {
