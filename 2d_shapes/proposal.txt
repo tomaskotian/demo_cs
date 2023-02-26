@@ -8,32 +8,31 @@ class Shape
 	Line Line
 
 class Circle	
-	int Radius
-	double Area
+	int radius
+	double area
 
 class Square
 	int side
 	double area
 
-class Rectangle
-	int SideA
-	int SideB
-	int Area
+class Rectangel
+	int sideA
+	int sideB
+	double area
 
 class Triangle
-	int BaseT
-	int Height
-	double Area
+	int side 
+	double area
 
 struct Position
-	int X
-	int Y 
+	int x
+	int y
 
 struct Line
-	int lineWidth
-	Color lineColor
+		int lineWidth
+		Color lineColor
 
-enum Color Red, Green, Blue, Yellow
+enum Color Red, Green, Blue
 
 class Memory : IGui
 	Shape[] CreatedShapes

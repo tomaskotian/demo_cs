@@ -26,6 +26,7 @@ class Memory : IGui
         }
         arrShapes[LastIndex-1] = null;
 
+
     }
 
     
