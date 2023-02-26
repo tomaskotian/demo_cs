@@ -34,6 +34,17 @@ struct Line
 
 enum Color Red, Green, Blue
 
+class Memory : IGui
+	Shape[] CreatedShapes
+	
+	addShape()
+	removeShape()
+
+	printShapes()
+
+Interface IGui
+	void printShapes()
+
 -----------------------------------------------------------------------------
 toto dalej nebudeme robit...
 -----------------------------------------------------------------------------

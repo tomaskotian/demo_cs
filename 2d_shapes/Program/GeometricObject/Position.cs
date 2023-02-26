@@ -6,15 +6,16 @@ struct Position
     public int Y = 0;
 
 
-    public Position()
-    {
-
-    }
+    //public Position()
+    //{
+    //
+    //}
     public Position(int x, int y)
     {
         X = x; 
         Y = y;
     }
 
+    public static Position Default() => new Position(0, 0);
 
 }
