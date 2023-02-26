@@ -1,3 +1,6 @@
+adding: 
+git add Program\GeometricObject Program\Gui Program\Memory Program\obj Program\Program.cs Program\Program.csproj Program\Shapes
+
 --clone repository from github--
 git clone https://github.com/tomaskotian/demo_cs.git
 cd demo_cs
